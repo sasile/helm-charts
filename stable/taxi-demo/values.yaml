@@ -3,8 +3,8 @@ V3IO:
   WebApiPort: 8081
 
 Demo:
-  Image: sasilevi/strata_demo
-  ImageTag: v2
+  Image: iguaziodocker/cloud_demo
+  ImageTag: latest
   Container: bigdata
   Collection: taxi_example/cells
   Refresh: 2000
