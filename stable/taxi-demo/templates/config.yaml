@@ -31,6 +31,8 @@ data:
     }
   
   startup.sh: |
+    #!/bin/bash
+    set -e
     cp /etc/iguazio/demo/config/config.json /visualization/config.json
     cd /visualization
     forever gulp
